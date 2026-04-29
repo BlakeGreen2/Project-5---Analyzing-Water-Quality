@@ -19,6 +19,11 @@ All parameters will have summary statistics showing the mean, median, max, min, 
 A function to evaluate the concentration of Total Dissolved Solids after mixing from the pipeline. The current code has the Q(pipe) set to 6 cfs which was a client given design number. The Q(River) is set to 50 cfs which was found from the dataset. These inputs can be changed individually to evaluate different mixing scenarios to see how they would effect the final concentration of Total Dissolved Solids. The equation assumes steady state conditions and complete mixing.
 
 ----
+**Temporal Trend Analysis**
+
+A temporal trend analysis was also completed using a statsmodels function. This showed the water quality for total dissolved solids and sulfate over the years in Lake Ashtabula and Lake Sakakawea. The linear regression was used to see if there was a linear trend between time and water quality degradation. All graphs were then plotted on subplots and showed a positive correlation. If a statistical analysis were to be done these results would possibly not have an alpha value less than 0.05 due to insufficient data points for some of the graphs however they do provide insight into the data when combined with previous analysis of the parameters.
+
+----
 **Contents**
 
 - Raw Data Files
